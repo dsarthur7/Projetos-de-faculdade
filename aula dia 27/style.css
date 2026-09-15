@@ -1,0 +1,151 @@
+* {
+margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 20px;
+} 
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.123);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+main{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding: 5px;
+    margin-bottom: 10px;
+}
+section{
+    flex: 2;
+    display: flex;
+    gap: 10px;
+}
+article{
+    flex: 1;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+aside{
+     flex: 1;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+footer{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(117, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 900px;
+    border: solid 3px black;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.linha-principal{
+    display: flex;
+    gap: 10px;
+}
+.titulo-artigo {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 8px;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+}
+.galeria {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.galeria img{
+    width: 24%;
+    height: auto;
+    border: 1px solid black;
+}
+.area-tabela{
+    width: 100%;
+}
+.tabela-conteudo{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+.tabela-conteudo caption{
+    color: black;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.tabela-conteudo th,
+.tabela-conteudo td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.tabela-conteudo thead{
+    background-color: gray;
+    color: white;
+}
+.tabela-conteudo tbody{
+    background-color: gray;
+    color: white;
+}
+.tabela-conteudo tfoot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+header h1{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+header p{
+    color: white;
+    font-size: 14px;
+}
+nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+
+}
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
